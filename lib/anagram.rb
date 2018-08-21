@@ -11,7 +11,7 @@ class Anagram
     no_matches = []
     possible_anagrams.each do |anagrams|
     if anagrams.split("").sort == word.split("").sort
-    
+
   end
   no_matches
 end
