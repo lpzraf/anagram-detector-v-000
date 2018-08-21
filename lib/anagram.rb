@@ -9,8 +9,8 @@ class Anagram
     
   def match(possible_anagrams)
    newArray = []
-   
-   if 
+   possible_anagrams.each do |anagram|
+     if  
   end
 end
 # possible_anagrams.select do |anagram|
