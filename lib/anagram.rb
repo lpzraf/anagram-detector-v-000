@@ -14,6 +14,7 @@ class Anagram
        newArray << anagram
      end
    end
+   newArray
   end
 end
 # possible_anagrams.select do |anagram|
