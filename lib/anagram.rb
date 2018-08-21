@@ -12,9 +12,7 @@ class Anagram
     matches = []
     possible_anagrams.each do |anagrams|
     if anagrams.split("").sort == word.split("").sort
-     anagrams << matches
-    else 
-      no_matches
+     anagrams << no_matches
   end
 end
 end
