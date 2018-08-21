@@ -10,7 +10,10 @@ class Anagram
   def match(possible_anagrams)
    newArray = []
    possible_anagrams.each do |anagram|
-     if  
+     if  anagram.split("").sort == word.split("").sort
+       newArray << anagram
+     end
+   end
   end
 end
 # possible_anagrams.select do |anagram|
