@@ -11,3 +11,6 @@ class Anagram
    
   end
 end
+possible_anagrams.select do |anagram|
+  anagram.split("").sort == word.split("").sort
+end
