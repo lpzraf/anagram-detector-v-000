@@ -10,7 +10,7 @@ class Anagram
   def match(possible_anagrams)
     no_matches = []
     possible_anagrams.each do |anagrams|
-    if anagrams.split("").sort != word.split("").sort
+    if anagrams.split("").sort == word.split("").sort
      no_matches
   end
 end
